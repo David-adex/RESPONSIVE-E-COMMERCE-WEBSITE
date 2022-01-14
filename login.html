@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <!--below contains the links to the css and javascript files-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "display.css" />
+        <link rel = "stylesheet" href = "media.css" />
+        <script src="effect.js" defer></script>
+    </head>
+    <body>
+        <!--This is the header which contains the navigation bar, company name and header image-->
+        <header class="mainDisplay">
+            <p class="companyName"><b><i>ADEX CRIB</i></b></p>
+            <section class="DOM">
+				<a href="#" class="font-inc"> A+ </a>
+				<a href="#" id="font-reset"> A </a>
+				<a href="#" class="font-dec"> A- </a>
+				<a href="#" class="darkbox"> &#9632; </a>
+                <a href="#" class="brownbox"> &#9632; </a>
+			</section>
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="aboutUs.html">COMPANY</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="login.html">SIGN IN</a></li>
+                    <li><a href="createAccount.html">SIGN UP</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--The section for the content-->
+        <section class="register">
+             <!--Below contains the form element and the necessary methods and types that were needed in carrying out the given task-->
+            <section>
+                <h1>SIGN IN</h1>
+                <form action="#" method="post">
+                    <fieldset class="signUp_info">
+                        <legend><b>User Info</b></legend>
+                        <p><label class="info">Email:</label><input type = "text" size="30" name="email" id = 'email' required autofocus pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$"></p>
+                        <p><label class="info">Password:</label><input type="password" size="30" name="password" id="password" required  pattern="^([a-z0-9_-]{6,18}+)@$"></p>
+                        <p><input type="submit" value="Confirm" /></p>
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+        <!--This section is the footer-->
+        <footer class="belowDisplay">
+            <!--it  contains my contact details as requested and also links with the company name also in the footer-->
+            <p><b><i>ADEX CRIB</i></b></p>
+            <p><b>Tel:+447818025515  Email:Davidadekoya1329@gmail.com</b></p>
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="aboutUs.html">COMPANY</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="createAccount.html">SIGN UP</a></li>
+                    <li><a href="login.html">SIGN IN</a></li>
+                </ul>
+            </nav>
+            <p><b>Copyrights&copy;David Adekoya 2022. Nottingham, United Kingdom</b></p>
+        </footer>
+
+
+    </body>
+</html>

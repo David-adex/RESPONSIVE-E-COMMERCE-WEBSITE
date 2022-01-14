@@ -1,0 +1,288 @@
+/*css adjustments forthe company name */
+.companyName{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-family: Georgia;
+}
+/*css modifications for the controls necessary to cause customised presentations*/
+.DOM{
+    justify-content: space-between;
+    text-align:right;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 85%;
+}
+
+.font-inc{
+    margin-left: 4px;
+}
+
+#font-reset{
+    margin-left: 4px;
+}
+
+.font-dec{
+    margin-left: 4px;
+}
+
+.darkbox{
+    margin-left: 4px;
+}
+
+.brownbox{
+    margin-left: 4px;
+}
+
+#incre{
+    font-size:larger;
+}
+
+#decre{
+    font-size:smaller;
+}
+
+.res{
+    font-size:initial;
+}
+
+.darker{
+    background-color:darksalmon;
+}
+
+.browner{
+    background-color:darkolivegreen;
+}
+/*css modifications to make the navigation bar more user friendly.
+ The display element contributes greatly to its display today*/
+.mainDisplay nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.mainDisplay a:hover, .mainDisplay a:active{
+    background-color: dodgerblue;
+    text-decoration: none;
+}
+   
+.stickyBar{
+    overflow: hidden;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mainDisplay nav a:link, .mainDisplay nav a:visited{
+    color:#fff;
+    padding: 5px 23px; 
+    height: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+.mainDisplay nav{
+    position: sticky;
+    background-color: olive;
+    font-size: 1.143em;
+    height: 40px;
+    line-height: 30px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+/*background color for the web pages*/
+body{
+    background-color:lightskyblue;
+}
+/*css adjustments for the images in the web pages with header images*/
+.mainImage{
+    width: 96%;
+    height: 550px;
+    background-color: olive;
+    padding: 2% 2%;
+}
+
+.mainImg{
+    background-color: olive;
+    margin-top: 0px;
+    padding: 2% 2%;
+    width: 96%;
+    height: 550px;
+}
+/*adjustments for the footer displayed below*/
+.belowDisplay{
+    background-color: black;
+    color:gray;
+    text-align: center;  
+    clear: both;
+    margin-bottom: 0px;
+}
+
+.belowDisplay nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.belowDisplay nav a:link, .belowDisplay nav a:visited{
+    color: gray;
+    padding: 5px 23px; 
+    height: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+/*css adjustments for the web pages with meaningful content/info and images */
+#dream{
+    color:cornflowerblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subText{
+    text-align: center;
+    color: green;
+    font-size: 22px;
+    padding: 5px 100px;
+}
+
+.mainBody{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subLink{
+    text-align: center;
+    font-size: 18px;
+}
+
+#more{
+    background-color: cornflowerblue;
+}
+
+.subLink a{
+    padding: 10px 10px;
+}
+
+.img{
+    width:600px;
+    height: 200px;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.product_info{
+    text-align: center;
+    color: green;
+    font-size: 22px;
+}
+
+.products{
+    padding-top: 10px;
+}
+
+.finalImg{
+    width: 100%;
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.company_info{
+    margin:5px 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about_us{
+    color: cornflowerblue;
+}
+
+.about{
+    font-size: 21px;
+    line-height: 40px;
+}
+
+.founder{
+    width: 400px;
+    height: auto;
+    margin-left: 400px;
+}
+
+.founder_info{
+    text-align: center;
+    font-weight: bold;
+}
+
+.motto{
+    font-size: 20px;
+}
+
+.mainFinal p{
+    background-image: url('images/fun.jpg');
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.apple_1{
+    float:left;
+    width:450px;
+    height:auto;
+    padding-bottom: 5px;
+}
+
+.apple_info{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.apple_info1{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.apple_info2{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+/*css animation for the product images*/
+.apple_1:hover{
+    width: 550px;
+    height: auto;
+    float: right;
+}
+/*css adjustments used for the registration websites to bring out it's quality*/
+.register{
+    margin: 0px 450px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.signUp_info{
+    border-radius: 5px;
+    border-color: white;
+    border-width: 5px;
+}
+
+.signUp_info p{
+    text-align: center;
+}
+
+.signUp_info input:required{ 
+    border:1px solid red;
+}
+
+
+
+
+
+
+
